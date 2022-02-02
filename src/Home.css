@@ -1,0 +1,147 @@
+.ant-carousel{
+    background-color: rgb(35, 55, 122);
+}
+
+.logo-1{
+    height: 50px;
+}
+
+.mini-header{
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+#alignimagone{
+    padding-bottom: 0px;
+}
+.ant-layout-header {
+    padding: 0 10px;
+} 
+
+.ant-input-search{
+    margin-top: 20px;
+}
+
+/* .anticon-bell, .anticon-shopping-cart, .anticon-user{
+    background-color: rgba(27, 25, 25, 0);
+} */
+
+/* svg{
+    height: 2em;
+    width: 2em;
+} */
+
+.card-align-images{
+    text-align: center;
+}
+.nav-icons{
+    color: rgb(245, 231, 236);
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.system-support-text{
+    margin-top: 15px;
+}
+
+.system-support-num{
+    margin-top: 15px;
+}
+
+.date{
+    margin-top: 15px;
+}
+
+.sit-card{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 10px;
+}
+
+.icons-size{
+    font-size: 2em;
+}
+
+.ant-card-hoverable{
+    width: 180px;
+}
+
+.img-inline{
+    height: 60px;
+}
+
+.side-cards{
+    row-gap: 80px;
+}
+
+@media (max-width: 400px) {
+    .card-align-images{
+        text-align: center;
+    }
+
+    .logo-1{
+        margin-top: 16px;
+        height: 40px;
+    }
+  
+    .img-inline{
+        height: 50px;
+    }
+
+    .nav-icons{
+        margin-top: 28px
+    }
+
+    .icons-size{
+        font-size: 1em;
+    }
+
+    .logo-2{
+        margin-top: 2px;
+        height: 30px;
+    }
+
+    .system-support-text{
+        margin-top: 6px;
+        font-size: 10px;
+    }
+
+    .system-support-num{
+        margin-top: -8px;
+    }
+
+    .date{
+        margin-top: -8px;
+    }
+    
+    .sit-card{
+        margin-top: 20px;
+        margin-left: 9px;
+        margin-right: 9px;
+        margin-bottom: 10px;
+        word-wrap: break-word;
+        row-gap: 10px;
+    }
+
+    .logo-header{
+        margin-top: 14px;
+    }
+
+    .ant-btn-primary{
+        margin-top: 20px;
+    }
+
+    .ant-layout-header{
+        line-height: 14px;
+    }
+
+    .ant-card-hoverable{
+        width: 100px;
+    }
+}
